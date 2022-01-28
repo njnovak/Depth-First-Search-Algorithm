@@ -1,0 +1,37 @@
+ENPM809Y: Fall 2021, Section II Group 2
+RWA2 Project
+
+Jerry Pittman, Jr., Nicholas Novak, & Orlandis Smith
+Emails: jpittma1@umd.edu, nnovak@umd.edu, osmith15@umd.edu
+
+
+
+***************************Welcome to the RWA2: Maze Solving Algorithm********************
+
+This Depth First Search (DFS) algorithm is for the robot mouse to find the center of the maze using the shortest learned path. The designed software, enables the mouse to remember visited locations and to try new entry points until finished.
+
+***************************************INSTALLATION***************************************
+The requirements to run the code is QT5 from QT Toolbox, Linux (Ubuntu), Windows, macOS and VSCode. 
+
+Upon installation, the user can select the maze file configuration to be nonempty, rectangular, or fully enclosed at the start of each new game. The mouse will automatically start at the prescribed beginning node of the user-input.  
+
+
+
+*****************************mms Graphical User-Interface (GUI)***************************
+
+1.) Open the mms GUI (In terminal from inside of simulator bin folder: ./mms), a pre-configured maze should appear before the program is initiated.
+
+2.) Give the game a name in the input field, this name is stored for in respect to the selected maze configuration. 
+
+3.) The directory is to be the location or folder of the mms.cpp VSCode.
+
+4.) The user is to insert the following in the Build Command Line: 
+        g++ src/main.cpp src/mouse.cpp src/node.cpp src/api.cpp
+
+5.) The user should now click the Build button and wait for the Build indicator to change to GREEN. 
+
+6.) Once the build is complete, the user is to click the Run button and wait 3 seconds for the indicator to highlight GREEN. A RED indicator means that the user may need to re-insert a new configuration file in the directory, the build file structure is incorrect and/or the Run Command is entered incorrectly. Please follow steps 1 - 4 to correct this issue.
+
+7.) With all indicators being GREEN, the user can now select the RUN button to run the program. The mouse speed can be increased or decreased by using the dial, turtle for slow and rabbit for fast.
+
+
