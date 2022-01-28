@@ -1,5 +1,3 @@
-# RWA2
-809Y RWA2 project
+# Maze Solver
 
-
-Initial files provided by instructor. Need to modify to define each function from mouse.h in mouse.cpp (or main.cpp) for Algorithm 1 (DFS) and Algorithm 2 (program flow).
+This code is used iwth the mms maze solver (https://github.com/mackorone/mms). This specific algorithm uses C++ to implement a depth-first search method. This constitutes the robot mouse attempting a move in the North, East, South, the West directions, respectively, and then reversing if none can be performed. Traveled paths and seen walls are stored and updated in mms accordingly so that the same path is not repeated.
